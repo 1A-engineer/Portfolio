@@ -217,11 +217,11 @@ body {
 
 .intro-img-itself {
   width: 50%;
-
   border-radius: 50%;
   object-fit: cover;
   margin-top: 28px;
   margin-bottom: 22px;
+  aspect-ratio: 1;
 }
 
 .intro-smallbox {
@@ -408,6 +408,7 @@ max-width: 100%;
 
 /* Last section */
 .lastsection {
+  margin-top: 40px;
   max-width: 932px;
   width: 100%;
   display: flex;
@@ -634,6 +635,12 @@ margin-top: 40px;
   @media (max-width:769px) {
     .intro-softwarer-p {
       font-size: 3.25em;
+          }
+
+          .intro-smallbox-icons {
+            width: 20px;
+            height: 20px;
+            
           }
 
           .ls-title-p {
